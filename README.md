@@ -4,15 +4,16 @@ Downloads públicos do jogo para Android e Windows. Este repositório contém ap
 
 ## Instalar
 
-- [Android — baixar APK v11](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.0/ERYNDOR-mobile-v11.apk). Instale por cima da versão anterior, sem desinstalar, para manter suas contas e saves.
-- [Windows — baixar ZIP v11](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.0/ERYNDOR-Windows-v11.zip). Extraia e abra ERYNDOR.exe. A pasta anterior dos saves permanece preservada.
+- [Android — baixar APK corrigido](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.1/ERYNDOR-mobile-v12.apk). Instale por cima da versão anterior, sem desinstalar, para manter suas contas e saves.
+- [Windows — baixar ZIP corrigido](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.1/ERYNDOR-Windows-v12.zip). Extraia e abra ERYNDOR.exe. A pasta anterior dos saves permanece preservada.
 
-A versão v11 traz o nome ERYNDOR A Ascensão dos Reinos e um ícone inspirado na samurai do jogo, incluindo ícones temáticos do Android.
+A versão 0.11.1 corrige o travamento na porta, cama, baú e armário de heróis da casa. Mantém o nome e os ícones de ERYNDOR.
 
 ## Atualizações
 
+Quem já instalou ERYNDOR v11 pode receber a correção como atualização de conteúdo v13 pelo próprio jogo.
 Ao abrir o jogo conectado à internet, o atualizador verifica o canal estável. Conteúdo novo é preparado para a próxima abertura; alterações que precisam de instalador mostram o link de download no jogo.
 
-[Última versão dos instaladores](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.0) · [Canal estável](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/canal-estavel)
+[Últimos instaladores](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Canal estável](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/canal-estavel)
 
 Código-fonte, credenciais e dados dos jogadores não são publicados aqui.
