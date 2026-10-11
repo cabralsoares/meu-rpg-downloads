@@ -1,14 +1,18 @@
-# MeuRPG — downloads oficiais
+# ERYNDOR A Ascensão dos Reinos
 
-[Baixar MeuRPG 0.9](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.9.0)
+Downloads públicos do jogo para Android e Windows. Este repositório contém apenas instaladores e pacotes de atualização.
 
-- **Android:** baixe `MeuRPG-mobile-v9.apk` e instale por cima da versão anterior, sem desinstalar.
-- **Windows:** extraia `MeuRPG-Windows-v9.zip` e execute `MeuRPG.exe`.
+## Instalar
 
-Esta instalação é necessária uma vez para migrar do canal antigo privado para o novo canal público. Depois, o jogo baixa as atualizações em segundo plano e aplica ao reabrir. Preserve os dados existentes; não apague os saves.
+- [Android — baixar APK v11](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.0/ERYNDOR-mobile-v11.apk). Instale por cima da versão anterior, sem desinstalar, para manter suas contas e saves.
+- [Windows — baixar ZIP v11](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.0/ERYNDOR-Windows-v11.zip). Extraia e abra ERYNDOR.exe. A pasta anterior dos saves permanece preservada.
 
-A versão 0.9 inclui Ninja, Paladino e Druida, melhorias nas armas e golpes do multiplayer, nova voz de ataque e efeitos de magia.
+A versão v11 traz o nome ERYNDOR A Ascensão dos Reinos e um ícone inspirado na samurai do jogo, incluindo ícones temáticos do Android.
 
-Este repositório contém somente informações de instalação e arquivos de distribuição nas Releases. O repositório de código-fonte permanece privado. Não há contas, saves ou credenciais de jogadores aqui.
+## Atualizações
 
-Manifesto do canal: https://github.com/cabralsoares/meu-rpg-downloads/releases/download/canal-estavel/manifesto.json
+Ao abrir o jogo conectado à internet, o atualizador verifica o canal estável. Conteúdo novo é preparado para a próxima abertura; alterações que precisam de instalador mostram o link de download no jogo.
+
+[Última versão dos instaladores](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.0) · [Canal estável](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/canal-estavel)
+
+Código-fonte, credenciais e dados dos jogadores não são publicados aqui.
