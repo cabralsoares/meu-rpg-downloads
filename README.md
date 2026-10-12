@@ -1,29 +1,17 @@
 # ERYNDOR A Ascensão dos Reinos
 
-Downloads públicos do jogo para Android e Windows. Este repositório contém apenas instaladores e pacotes de atualização.
+RPG para Android e Windows. Este repositório contém os downloads; o código-fonte e as credenciais privadas permanecem fora dele.
 
-## Instalar
+[Baixar o jogo](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Conteúdo v21 e pacote do servidor](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v21)
 
-- [Android — baixar APK corrigido](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.1/ERYNDOR-mobile-v12.apk). Instale por cima da versão anterior, sem desinstalar, para manter suas contas e saves.
-- [Windows — baixar ZIP corrigido](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.1/ERYNDOR-Windows-v12.zip). Extraia e abra ERYNDOR.exe. A pasta anterior dos saves permanece preservada.
+No Android, instale **ERYNDOR-mobile-v12.apk** por cima da instalação anterior, sem desinstalar. No Windows, extraia **ERYNDOR-Windows-v12.zip** e execute **ERYNDOR.exe**. Instalações do antigo canal privado precisam deste instalador uma vez para migrar ao canal público.
 
-O conteúdo **20 já está disponível**. A nova atualização traz 14 personagens com corpos e rostos novos, mantendo a escolha entre homem e mulher nas sete classes. O Samurai usa armadura e elmo; o Cavaleiro, placas e visor; o Paladino, armadura clara e detalhes dourados; o Mago, vestes e chapéu; o Ninja, máscara e roupa própria; o Druida, folhas, galhos e chifres; e o Caçador, traje de explorador. As pegadas das armas foram refeitas com ajustes nos dedos, polegares e pulsos. O fio das katanas e o encaixe das máscaras foram corrigidos. As vozes masculinas e femininas e os brados de batalha continuam disponíveis.
+O instalador atual é **v0.11.1**, com versão nativa **11** e APK código **12**. O conteúdo do canal automático continua **20**. Os pacotes **21** estão preparados e publicados; sua ativação automática aguarda a atualização da VPS para cliente e servidor usarem a mesma versão. O jogo verifica as atualizações e aplica ao reabrir, preservando os saves existentes.
 
-A atualização v19 trouxe vozes correspondentes aos heróis masculinos e femininos, brados mais fortes nos ataques especiais e sincronização da aparência escolhida no multiplayer.
+O conteúdo v21 acrescenta o painel **Jogadores** ao multiplayer. O proprietário pode consultar presença e perfis, buscar por nick, atribuir Jogador, VIP ou Moderador, conceder moedas, definir nível, curar e ampliar a casa. As concessões às identidades verificadas ficam salvas no servidor; convidados recebem benefícios durante a sessão. VIP e Moderador não recebem o painel do proprietário.
 
-A atualização v17 adiciona três ampliações com novos visuais: casa pequena por 500 moedas, média por 1.000 e grande por 2.000. Sem materiais. A cabana inicial permanece gratuita, e a casa grande oferece quatro baús e 500 kg de armazenamento. A opção Salvar login e senha continua disponível.
+Para administrar: login do proprietário com senha → **Jogar multiplayer com esta conta** → conectar ao servidor atualizado → **Painel do administrador [F1]** → **Jogadores**. A credencial privada do proprietário permanece no seu aparelho e não acompanha os downloads.
 
-A atualização v15 permite entrar e sair da casa na aventura automaticamente ao aproximar-se da porta, com uma transição de cena e sem abrir nem fechar a porta.
+**VPS:** cliente e servidor precisam do conteúdo v21/protocolo 5. O arquivo **ERYNDOR-servidor-v21.pck** roda com Godot **4.7.2**. Atualizar os jogadores não substitui o processo da VPS: faça backup dos dados de usuário, troque o PCK do servidor e reinicie seu serviço. Esta publicação disponibiliza o pacote e não confirma instalação em uma VPS específica.
 
-A atualização v14 permite disparos normais, especiais, magias e ataques montado, inclusive durante o galope. Após instalar, abra o jogo conectado à internet e aplique a atualização de conteúdo oferecida pelo jogo.
-
-A versão 0.11.1 corrige o travamento na porta, cama, baú e armário de heróis da casa. Mantém o nome e os ícones de ERYNDOR.
-
-## Atualizações
-
-Quem já instalou ERYNDOR v11 recebe as atualizações de conteúdo pelo próprio jogo. O conteúdo publicado atualmente é **20**.
-Ao abrir o jogo conectado à internet, o atualizador verifica o canal estável. Conteúdo novo é preparado para a próxima abertura; alterações que precisam de instalador mostram o link de download no jogo.
-
-[Últimos instaladores](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Canal estável](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/canal-estavel)
-
-Código-fonte, credenciais e dados dos jogadores não são publicados aqui.
+Mantém os 14 personagens do conteúdo v20, com versões masculinas e femininas das sete classes, trajes e vozes próprios, brados de batalha, pegadas das armas e máscaras ajustadas. Mantém também entrada automática na casa, combate montado e ampliações por 500, 1.000 e 2.000 moedas.
