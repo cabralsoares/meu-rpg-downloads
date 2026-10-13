@@ -1,35 +1,33 @@
 # ERYNDOR A Ascensão dos Reinos
 
-RPG para Android e Windows. Este repositório contém os downloads; o código-fonte e as credenciais privadas permanecem fora dele.
+RPG para Android e Windows. O [conteúdo **27**](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v27) está publicado e ativo no canal automático desde **13/10/2026**. Abra o jogo com internet, aguarde o download e reabra para aplicar.
 
-[Baixar o jogo](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Conteúdo v26](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v26)
+[Baixar os instaladores v0.11.1](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1)
 
-O conteúdo **26** está publicado e ativo no canal automático para Android e Windows desde **13/10/2026**. Abra o jogo com internet, aguarde o download e reabra para aplicar.
+No Android, instale **ERYNDOR-mobile-v12.apk** por cima do anterior, sem desinstalar. No Windows, extraia **ERYNDOR-Windows-v12.zip** e execute **ERYNDOR.exe**. Quem usa um instalador do antigo canal privado precisa instalar esta versão uma vez para receber atualizações pelo canal público. A versão nativa continua **11** e o APK continua com código **12**.
 
-## Painel de administração
+## Abertura animada v27
 
-O proprietário **jadson** autenticado tem um novo botão prateado de escudo com coroa ao lado dos controles. Toque nele ou use **F1**. O painel mostra quem está jogando, contas logadas, offline e total, com busca e filtros. Selecione o jogador para atribuir Jogador/VIP/Moderador, conceder moedas, definir nível, curar ou melhorar a casa. Campos preenchidos são preservados por jogador e ações online aguardam a confirmação do servidor.
+A arte medieval foi adaptada da referência fornecida com **imagegen** e mantém o título **ERYNDOR A Ascensão dos Reinos** sobre o castelo. Continuar, Entrar, Criar conta, Multiplayer e Sair continuam funcionais nas plataformas que oferecem essas ações. O menu se adapta à tela, com rolagem em telas curtas. Três tecidos vermelhos ondulam ao vento; o lampião balança até **±0,6°**, com chama e luz animadas. O castelo fica estável.
 
-O painel adapta-se ao celular, permite rolar e mostra os detalhes do jogador selecionado. A administração exige o login do proprietário e, no multiplayer, sua identidade autorizada pelo servidor. VIP e Moderador não concedem acesso ao painel. Ao sair da conta, o acesso é revogado. A credencial privada permanece no aparelho do proprietário; instalar em outro aparelho não a transfere.
+A faixa [**Crusade**, de Kevin MacLeod / Incompetech](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100884), acompanha o menu em loop, com entrada gradual, volume moderado, botão para silenciar e créditos acessíveis. A música termina ao entrar na partida e respeita os volumes do jogo. É uma alternativa orquestral épica; a trilha oficial de Game of Thrones não foi incluída.
 
-## Conversa e aventura
+Crusade — Kevin MacLeod (incompetech.com), sob [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/). Adaptação: reprodução em loop e fade para ERYNDOR.
 
-Use **Enter**, **T** ou o ícone prateado de conversa para abrir o pequeno campo de escrita. **Enter/Enviar** envia e fecha; **Esc** fecha preservando o rascunho. A mensagem aparece em balão acima do herói somente para quem está a **até 20 m**, por **6 a 12 segundos**, acompanhando a montaria e respeitando paredes. O servidor valida autoria, nível, alcance, limite de 180 caracteres e um envio por segundo. Nome e **Lv.** ficam acima da cabeça dos jogadores. A conversa não tem destinatário escolhido.
+## Multiplayer e funções preservadas
 
-Faça **login → escolha o herói → Multiplayer** para entrar diretamente no servidor oficial, sem digitar IP. Valdoria mantém o HUD, joystick, minimapa, inventário, equipamentos, habitantes, lojas, missões, saque, baús e fauna. O progresso online das identidades verificadas fica no servidor, separado da aventura local; convidados usam progresso temporário.
+Entre na conta, escolha o herói e toque em **Multiplayer** para conectar diretamente à VPS. Os jogadores mostram nome e nível acima da cabeça. O ícone prateado, Enter ou T abre um compositor pequeno; as falas aparecem em balões somente para jogadores a até **20 m**. Enviar fecha o compositor e devolve os controles ao herói.
 
-Mantém os 14 personagens, com versões masculinas e femininas das sete classes, trajes, vozes e brados próprios. Casas têm entrada e saída automáticas, descanso, baú e seleção de herói. As ampliações custam **500**, **1.000** e **2.000 moedas**, sem materiais. Há combate montado, cavalos comuns por **10.000 moedas**, dourado por **50.000** e baia de honra. Os seis estábulos têm vendedores e cavalos selados. Fome e sede aparecem no HUD; comida, bebidas e fontes repõem as necessidades, com simulação e persistência online no servidor.
+A administração introduzida na v26 continua disponível somente para o proprietário autenticado por senha e autorizado pela VPS. Ícone de escudo com coroa e F1 abrem o mesmo painel. A aba Jogadores permite consultar presença e atribuir Jogador/VIP/Moderador, moedas, nível, cura e melhoria de casa, com confirmação do servidor.
 
-## Instalação e compatibilidade
+Heróis masculinos e femininos, equipamentos, inventário, missões, combate, montaria, casas, fome e sede permanecem. Casas recebem ampliações por **500**, **1.000** e **2.000 moedas**, sem outros materiais.
 
-No Android, instale **ERYNDOR-mobile-v12.apk** por cima da instalação anterior, sem desinstalar. No Windows, extraia **ERYNDOR-Windows-v12.zip** e execute **ERYNDOR.exe**. Instalações do antigo canal privado precisam deste instalador uma vez para migrar ao canal público.
+O **cliente 27 usa protocolo 8** e é compatível com o **servidor v24 já instalado na VPS**. O pacote do servidor permanece inalterado. O progresso online das identidades verificadas é salvo na VPS e é independente da aventura local; contas e chaves continuam próprias de cada aparelho. Os downloads públicos contêm somente os clientes; código, dados do servidor e credenciais privadas permanecem privados.
 
-O instalador é **v0.11.1**, com versão nativa **11** e APK código **12**. Esses números são independentes do conteúdo **26**. A atualização mantém protocolo 8, compatível com o servidor v24 da VPS, e preserva os saves. Clientes v23 ou anteriores precisam atualizar para conectar.
+## Verificação da publicação
 
-## Verificação
+A abertura passou em **260 verificações headless** e **316 renderizadas**; a música passou em **22 verificações, sem falhas**. Login salvo, entrada Multiplayer e Créditos/Voltar em desktop e celular passaram. Capturas em **1152×648**, **1672×941**, **390×844** e **844×390** foram conferidas. **Um aparelho Android físico ainda não foi testado**; as telas móveis foram verificadas no Windows.
 
-Botão e autenticação passaram em 80 verificações headless e 84 renderizadas, sem falhas. Painel de Jogadores, gestão local, fluxo administrativo, administração ENet e regressões de conversa e partida passaram. Capturas em telas de desktop e celular foram conferidas. Os dois pacotes e instaladores foram verificados, e o executável Windows confirmou conteúdo ativo 26. O cliente v26 confirmou autenticação do proprietário, lista e acesso do convidado na VPS v24 em modo somente consulta, sem concessões. Os assets públicos, tamanhos, SHA-256 e manifesto foram conferidos anonimamente. O atualizador confirmou o download real do conteúdo 26. O pacote dedicado permanece privado; esta versão atualiza somente os clientes.
+Os dois pacotes têm **1.534 recursos**, com tamanhos e SHA-256 confirmados. O executável Windows confirmou **conteúdo ativo 27**, inclusive ao reabrir com o mesmo pacote baixado pelo atualizador. O cliente exportado confirmou autenticação do proprietário, lista e acesso do convidado na **VPS v24**, em modo somente consulta, sem concessões. A consulta SSH confirmou serviço ativo e SHA-256 do servidor v24 preservado. Os downloads públicos responderam **HTTP 200**, e o canal público foi conferido com os hashes do manifesto. O atualizador confirmou download real, **candidato 27** e **6591 quadros** durante o download.
 
-## Histórico
-
-A v25 introduziu o compositor compacto e o ícone prateado de conversa. A v24 introduziu balões por proximidade e protocolo 8; seu servidor continua instalado na VPS. Os testes e dados dessas versões foram preservados na v26.
+A [v26](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v26) foi publicada e ativada em **13/10/2026**, antes da v27, com as melhorias do painel administrativo. A [v25](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v25) introduziu o compositor compacto; a [v24](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v24) introduziu a conversa por proximidade e permanece no servidor.
