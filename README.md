@@ -2,34 +2,34 @@
 
 RPG para Android e Windows. Este repositório contém os downloads; o código-fonte e as credenciais privadas permanecem fora dele.
 
-[Baixar o jogo](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Conteúdo v25 disponível](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v25)
+[Baixar o jogo](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.1) · [Conteúdo v26](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v26)
 
-O conteúdo **25** está publicado e ativo no canal automático para Android e Windows desde **13/10/2026**, com conversa compacta e balões de fala. O servidor oficial permanece v24/protocolo 8, com os dados preservados.
+O conteúdo **26** está publicado e ativo no canal automático para Android e Windows desde **13/10/2026**. Abra o jogo com internet, aguarde o download e reabra para aplicar.
 
-A conversa usa um compositor pequeno, aberto por **Enter**, **T** ou pelo **ícone prateado de conversa**, sem o texto Chat no botão. **Enter/Enviar** envia a mensagem e fecha o campo imediatamente, devolvendo os controles ao herói; se o servidor recusar o envio, o compositor reabre com o rascunho e informa o motivo. **Esc** fecha preservando o rascunho. Não há seletor de destinatários, janela grande, painel de histórico, contador de mensagens, prévia no HUD nem fundo escurecido.
+## Painel de administração
 
-Somente jogadores a **até 20 m** do autor recebem a fala, que aparece em balões acima dos heróis por **6 a 12 segundos**, acompanha a montaria e respeita paredes. Durante a digitação, os controles do herói e da câmera ficam bloqueados sem pausar a partida dos outros jogadores. O servidor determina autor, nível, posição e destinatários, limita cada mensagem a **180 caracteres** e um envio por segundo. A entrada tardia não reproduz balões antigos. O histórico temporário do protocolo continua limitado a 40 falas locais, sem painel na interface, gravação em perfis ou logs.
+O proprietário **jadson** autenticado tem um novo botão prateado de escudo com coroa ao lado dos controles. Toque nele ou use **F1**. O painel mostra quem está jogando, contas logadas, offline e total, com busca e filtros. Selecione o jogador para atribuir Jogador/VIP/Moderador, conceder moedas, definir nível, curar ou melhorar a casa. Campos preenchidos são preservados por jogador e ações online aguardam a confirmação do servidor.
 
-Nome e **Lv.** permanecem acima da cabeça dos jogadores, inclusive o próprio herói. A v25 altera somente os clientes e usa **protocolo 8**, compatível com o servidor v24 da VPS, sem nova implantação do servidor. Clientes v23 ou anteriores precisam atualizar para entrar.
+O painel adapta-se ao celular, permite rolar e mostra os detalhes do jogador selecionado. A administração exige o login do proprietário e, no multiplayer, sua identidade autorizada pelo servidor. VIP e Moderador não concedem acesso ao painel. Ao sair da conta, o acesso é revogado. A credencial privada permanece no aparelho do proprietário; instalar em outro aparelho não a transfere.
+
+## Conversa e aventura
+
+Use **Enter**, **T** ou o ícone prateado de conversa para abrir o pequeno campo de escrita. **Enter/Enviar** envia e fecha; **Esc** fecha preservando o rascunho. A mensagem aparece em balão acima do herói somente para quem está a **até 20 m**, por **6 a 12 segundos**, acompanhando a montaria e respeitando paredes. O servidor valida autoria, nível, alcance, limite de 180 caracteres e um envio por segundo. Nome e **Lv.** ficam acima da cabeça dos jogadores. A conversa não tem destinatário escolhido.
+
+Faça **login → escolha o herói → Multiplayer** para entrar diretamente no servidor oficial, sem digitar IP. Valdoria mantém o HUD, joystick, minimapa, inventário, equipamentos, habitantes, lojas, missões, saque, baús e fauna. O progresso online das identidades verificadas fica no servidor, separado da aventura local; convidados usam progresso temporário.
+
+Mantém os 14 personagens, com versões masculinas e femininas das sete classes, trajes, vozes e brados próprios. Casas têm entrada e saída automáticas, descanso, baú e seleção de herói. As ampliações custam **500**, **1.000** e **2.000 moedas**, sem materiais. Há combate montado, cavalos comuns por **10.000 moedas**, dourado por **50.000** e baia de honra. Os seis estábulos têm vendedores e cavalos selados. Fome e sede aparecem no HUD; comida, bebidas e fontes repõem as necessidades, com simulação e persistência online no servidor.
+
+## Instalação e compatibilidade
 
 No Android, instale **ERYNDOR-mobile-v12.apk** por cima da instalação anterior, sem desinstalar. No Windows, extraia **ERYNDOR-Windows-v12.zip** e execute **ERYNDOR.exe**. Instalações do antigo canal privado precisam deste instalador uma vez para migrar ao canal público.
 
-O instalador atual é **v0.11.1**, com versão nativa **11** e APK código **12**. O jogo baixa as atualizações e aplica ao reabrir, preservando os saves. Abra com internet, aguarde o download e reabra para aplicar o conteúdo 25.
+O instalador é **v0.11.1**, com versão nativa **11** e APK código **12**. Esses números são independentes do conteúdo **26**. A atualização mantém protocolo 8, compatível com o servidor v24 da VPS, e preserva os saves. Clientes v23 ou anteriores precisam atualizar para conectar.
 
-Faça **login → escolha o herói → Multiplayer** para conectar diretamente ao servidor oficial, sem informar IP ou porta. Valdoria mantém o HUD da aventura local, joystick, minimapa, inventário, equipamentos, habitantes, lojas, missões, saque, baús e fauna.
+## Verificação
 
-As casas permitem entrada e saída automáticas, descanso, baú e seleção de herói. As ampliações custam **500**, **1.000** e **2.000 moedas**, sem materiais. Cavalos permitem combate montado, com equipamentos e montaria visíveis para os outros jogadores, inclusive quem entra depois.
+Botão e autenticação passaram em 80 verificações headless e 84 renderizadas, sem falhas. Painel de Jogadores, gestão local, fluxo administrativo, administração ENet e regressões de conversa e partida passaram. Capturas em telas de desktop e celular foram conferidas. Os dois pacotes e instaladores foram verificados, e o executável Windows confirmou conteúdo ativo 26. O cliente v26 confirmou autenticação do proprietário, lista e acesso do convidado na VPS v24 em modo somente consulta, sem concessões. Os assets públicos, tamanhos, SHA-256 e manifesto foram conferidos anonimamente. O atualizador confirmou o download real do conteúdo 26. O pacote dedicado permanece privado; esta versão atualiza somente os clientes.
 
-Os cavalariços Ramiro, Bento, Joaquina, Olavo, Zilda e Valentim oferecem cinco pelagens comuns por **10.000 moedas** e o cavalo dourado por **50.000 moedas**, exposto na baia de honra. Mantém os ajustes de animação e rédeas dos cavalos e o desvio de obstáculos dos passeantes. Fome e sede aparecem no HUD; comidas, bebidas e fontes repõem as necessidades. O servidor simula seus efeitos, valida o consumo e mantém seus valores no perfil das identidades verificadas.
+## Histórico
 
-O progresso online das identidades verificadas fica salvo no servidor e é independente da aventura local. Convidados usam progresso temporário. Uma instalação em outro aparelho não transfere automaticamente a chave de identidade da conta.
-
-O proprietário mantém **Painel do administrador [F1] → Jogadores** para consultar presença e perfis, atribuir Jogador/VIP/Moderador, conceder moedas, definir nível, curar e ampliar a casa. A credencial privada permanece no aparelho do proprietário, fora dos downloads. O envio no chat com o nick reservado do proprietário também exige autenticação administrativa. As abas gerais do F1, incluindo Economia, atuam na aventura individual; a gestão online recebe confirmação da VPS pela aba Jogadores.
-
-Os testes locais v25 de chat passaram com **42 verificações, sem falhas**, e o cenário ENet com servidor e três clientes confirmou proximidade, autoria, limites, entrega e histórico sem reativar balões. A interface compacta e a regressão da partida passaram nos testes headless e renderizados; as capturas foram conferidas em tamanhos de tela de desktop e celular. Os pacotes Android e Windows v25 e a inicialização no executável Windows foram conferidos. O cliente v25 validou autenticação do proprietário, lista e acesso do convidado na VPS v24 em modo somente consulta, sem conceder benefícios, e recebeu aviso privado do limite de chat. Os dois pacotes e o manifesto v25 foram conferidos anonimamente, incluindo tamanho, SHA-256 e acesso público. Uma prévia renderizada com mundo, HUD e avatar reais da fixture local também passou. O teste do atualizador confirmou o download real do conteúdo **25**, com exit 0 e candidato 25.0. Os downloads públicos distribuem somente conteúdo Android e Windows; o pacote dedicado permanece privado.
-
-Mantém os 14 personagens, com versões masculinas e femininas das sete classes, trajes e vozes próprios, brados de batalha, pegadas das armas e máscaras ajustadas.
-
-## Histórico: v24
-
-A [v24, versão anterior](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v24), foi publicada e ativada em **13/10/2026**, introduzindo conversa por proximidade e balões com protocolo 8. Seu botão Chat e painel de histórico visível são substituídos na v25 pelo ícone prateado e pelo compositor pequeno. A VPS mantém o servidor v24 e seus dados. Na implantação anterior, o cliente exportado confirmou autenticação do proprietário, concessões ao convidado, reconexão e o RPC do chat com aviso privado de limite. Hashes, tamanhos e download real v24 foram conferidos naquela publicação.
+A v25 introduziu o compositor compacto e o ícone prateado de conversa. A v24 introduziu balões por proximidade e protocolo 8; seu servidor continua instalado na VPS. Os testes e dados dessas versões foram preservados na v26.
