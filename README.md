@@ -1,5 +1,21 @@
 # ERYNDOR A Ascensão dos Reinos
 
+## Áudio e saída no PC v28 — publicada e ativa
+
+O [conteúdo **28**](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/atualizacao-v28) foi publicado e ativado no canal automático em **14/10/2026**. Os gatilhos de passos, pulo, pouso, água, assobio e efeitos de ações foram integrados ao cliente multiplayer a partir dos estados e eventos atuais. O banco do PCK27/APK13 contém **97 grupos**; a decodificação dos **295 arquivos distintos** do APK confirmou PCM diferente de zero. Os testes do cliente passaram em **38 verificações**, incluindo renderização/driver Dummy, e o servidor dedicado passou em **2 verificações**, sem leaks nessas suítes.
+
+O cliente também inclui **Saída de áudio** nas configurações local e online do PC, para escolher explicitamente o fone ou os alto-falantes e guardar somente a preferência `audio/saida`. Volumes e outras preferências são preservados; o padrão do Windows não será alterado. O seletor passou em **16 verificações Dummy e 20 WASAPI**, com volumes, mute e padrão do Windows preservados. A inspeção digital da saída atual não comprova a audição no equipamento; a saída que o usuário quer ouvir depende da sua escolha.
+
+Mantém **Godot 4.7.2**, versão nativa **11**, protocolo **8** e servidor **v24**, sem novo RPC nem reinício da VPS. Os instaladores permanecem **Android v0.11.2 / APK13** e **Windows v0.11.1 / v12**; o APK13 continua sendo o instalador mais recente.
+
+As regressões pós-integração passaram: interface online, casa/montaria, administração (**80 headless e 84 renderizadas**) e chat ENet com servidor e três clientes no reteste. A primeira corrida de encerramento do chat permanece registrada.
+
+A exportação confirmou **1.538 recursos em cada PCK**, com tamanho e SHA-256 conferidos. O boot nativo confirmou **conteúdo ativo 28**. A consulta do cliente exportado à VPS passou para proprietário e convidado em modo somente leitura; serviço, PID e hash do servidor v24 foram preservados.
+
+Os dois PCKs foram publicados e conferidos anonimamente: **HTTP 200**, tamanhos e SHA-256 iguais aos arquivos validados. O canal estável foi ativado para **Android e Windows 28**, com todos os campos iguais ao manifesto local.
+
+O atualizador confirmou **download real do conteúdo 28**, SHA-256 e tamanho iguais ao pacote público, com **6.528 quadros** durante o download. O executável nativo Windows reabriu e confirmou **conteúdo ativo 28**, sem boot pendente ou versão rejeitada. **Android físico não testado.** Os históricos v27 e APK13 abaixo conservam suas provas originais.
+
 ## Instalador Android v0.11.2 / APK v13 — publicado
 
 O [**instalador Android v0.11.2**](https://github.com/cabralsoares/meu-rpg-downloads/releases/tag/v0.11.2) foi publicado em **13/10/2026**, contendo somente [**ERYNDOR-mobile-v13.apk**](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.2/ERYNDOR-mobile-v13.apk). O download público anônimo respondeu **HTTP 200**, com tamanho e SHA-256 iguais ao APK verificado. O Windows continua usando [**ERYNDOR-Windows-v12.zip**, da v0.11.1](https://github.com/cabralsoares/meu-rpg-downloads/releases/download/v0.11.1/ERYNDOR-Windows-v12.zip).
